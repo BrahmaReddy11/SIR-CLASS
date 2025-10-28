@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            /* grid-template-columns: 100px 200px; */
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: 150px 100px;
+            gap: 15px;  
+        }
+        .item {
+            grid-template-columns: rgb(100, 100, 100);
+            grid-template-rows: lightblue;
+            background-color: rgb(100, 100, 100);
+            padding: 10px;
+        }
+        .div {
+            display: grid;
+            gap: 16px;
+            font-size: 16px;
+            grid-template-rows: 150px 100px;
+            grid-template-columns: 100px 200px;
+        }
+        .p {
+            font-size: 1.5em; /* 24px */
+            max-width: 60ch; /* max width of 60 "0" characters */
+            background-color: green;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- div.parent>div*5.child{hello} -->
+     <!-- <div class="parent">
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+     </div> -->
+     <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+     </div>
+     <br>
+     <hr>
+     <div class="div">
+        <p class="p">lorem1</p>
+        <p class="p">lorem2</p>
+        <p class="p">lorem3</p>
+        <p class="p">lorem4</p>
+        <p class="p">lorem5</p>
+        <p class="p">lorem6</p>
+     </div>
+</body>
+</html>

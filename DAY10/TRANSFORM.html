@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: saddlebrown;
+            border: 10px dashed orange;
+            border-radius: 1px;
+            transition: background-color 2s ease, border-radius 2s ease, transform 1s ease;
+        }
+        .box:hover {
+            background-color: yellow;
+            border-radius: 10px;
+            transform: scale(0.5) rotate(90deg) skew(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">transform</div>
+</body>
+</html>

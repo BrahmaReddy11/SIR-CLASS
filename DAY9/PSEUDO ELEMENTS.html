@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            padding: 20px;
+            margin: 20px;
+            border: 10px dashed purple;
+            color: lightseagreen;
+            font: 50px;
+            background-color: orange;
+        }
+        h1::selection {
+            background-color: rgb(36, 68, 137);
+        }
+        p::first-letter {
+            color: gray;
+            font-size: 50px;
+        }
+        p::before {
+            content: "*";
+        }
+    </style>
+</head>
+<body>
+    <p>hello hello hello</p>
+    <h1>hello hello hello</h1>
+</body>
+</html>

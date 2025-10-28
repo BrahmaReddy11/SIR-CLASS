@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .timing {
+            width: 100px;
+            height: 100px;
+            background-color: lightcyan;
+            position: relative;
+            padding: 20px;
+            /* animation-name: timing; */
+            animation: timing 1s ease-in-out 0s infinite alternate;
+            /* animation-duration: 2s; */
+            /* animation-iteration-count: infinite; */
+            /* border: 5px double lightpink; */
+            
+        }
+        @keyframes timing {
+            from {transform: scale(1);}
+            to {transform: scale(1.2);}
+            /* 0% {left: 0;} */
+            /* 50% {left: 200px; border-radius: 20px; background-color: orange;} */
+            /* 100% {left: 0;} */
+        }
+    </style>
+</head>
+<body>
+    <div class="timing">hello world</div>
+</body>
+</html>

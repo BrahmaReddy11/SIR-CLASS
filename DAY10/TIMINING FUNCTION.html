@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ease {
+            width: 200px;
+            height: 100px;
+            background-color: lightgrey;
+            transition: width 2s ease, background-color 2s ease;
+            border: 5px dashed orange;
+            margin: 15px;
+        }
+        .ease:hover {
+            width: 400px;
+            background-color: lightblue;
+            transform: width 2s ease;
+            border-radius: 20px;
+        }
+        .linear {
+            width: 200px;
+            height: 100px;
+            background-color: rgb(27, 172, 138);
+            transition: width 2s linear, background-color 2s linear;
+            border: 5px dashed orange;
+            margin: 15px;
+        }
+        .linear:hover {
+            width: 400px;
+            background-color: rgb(94, 76, 214);
+            transform: width 2s linear;
+            border-radius: 20px;
+        }
+        .ease-in {
+            width: 200px;
+            height: 100px;
+            background-color: rgb(118, 199, 157);
+            transition: width 2s ease-in, background-color 2s ease-in;
+            border: 5px dashed rgb(178, 159, 77);
+            margin: 15px;
+        }
+        .ease-in:hover {
+            width: 400px;
+            background-color: rgb(119, 36, 135);
+            transform: width 2s ease-in;
+            border-radius: 20px;
+        }
+        .ease-out {
+            width: 200px;
+            height: 100px;
+            background-color: rgb(160, 219, 185);
+            transition: width 2s ease-out, background-color 2s ease-out;
+            border: 5px dashed rgb(174, 167, 133);
+            margin: 15px;
+        }
+        .ease-out:hover {
+            width: 400px;
+            background-color: rgb(174, 114, 186);
+            transform: width 2s ease-out;
+            border-radius: 20px;
+        }
+        .ease-in-out {
+            width: 200px;
+            height: 100px;
+            background-color: rgb(83, 190, 128);
+            transition: width 2s ease-in-out, background-color 2s ease-in-out;
+            border: 5px dashed rgb(195, 173, 62);
+            margin: 15px;
+        }
+        .ease-in-out:hover {
+            width: 400px;
+            background-color: rgb(42, 154, 85);
+            transform: width 2s ease-in-out;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box1"> -->
+        <div class="ease">ease</div>
+        <div class="linear">linear</div>
+        <div class="ease-in">ease-in</div>
+        <div class="ease-out">ease-out</div>
+        <div class="ease-in-out">ease-in-out</div>
+    <!-- </div> -->
+
+</body>
+</html>

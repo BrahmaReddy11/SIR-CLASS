@@ -1,0 +1,15 @@
+        * {
+            background-color: rgb(185, 180, 154);
+        }
+        .class1 {
+            color: rgb(206, 209, 149);
+        }
+        #id {
+            color: rgb(73, 169, 169);
+        }
+        .class2 {
+            color: rgb(161, 95, 95);
+        }
+        .class3 {
+            color: salmon;
+        }

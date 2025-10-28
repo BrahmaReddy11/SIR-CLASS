@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: aliceblue;
+            position: relative;
+            animation-name: hello;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            border: 15px solid orange;
+            /* z-index: 100px; */
+        }
+        @keyframes hello {
+            0% {left: 0;}
+            /* 50% {left: 200px; transform: scale(1.2);} */
+            50% {left: 200px; transform: scale(90deg);}
+            100% {left: 0;transform: rotate(360deg);}      
+        }
+    </style>
+</head>
+<body>
+    <div class="box">hello</div>
+</body>
+</html>
